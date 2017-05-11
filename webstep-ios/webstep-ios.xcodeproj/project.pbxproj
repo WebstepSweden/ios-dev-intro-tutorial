@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AC5069E1EC49B1A00B305A4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5069D1EC49B1A00B305A4 /* SecondViewController.swift */; };
+		D037ABD91EC4A52B00B99A0E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D037ABD81EC4A52B00B99A0E /* TableViewController.swift */; };
 		D0E4035E1EC48BB7006FF9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4035D1EC48BB7006FF9F4 /* AppDelegate.swift */; };
 		D0E403601EC48BB7006FF9F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4035F1EC48BB7006FF9F4 /* ViewController.swift */; };
 		D0E403631EC48BB7006FF9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E403611EC48BB7006FF9F4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		8AC5069D1EC49B1A00B305A4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D037ABD81EC4A52B00B99A0E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D0E4035A1EC48BB7006FF9F4 /* webstep-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webstep-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E4035D1EC48BB7006FF9F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E4035F1EC48BB7006FF9F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D0E4035D1EC48BB7006FF9F4 /* AppDelegate.swift */,
 				D0E4035F1EC48BB7006FF9F4 /* ViewController.swift */,
 				D0E403611EC48BB7006FF9F4 /* Main.storyboard */,
+				D037ABD81EC4A52B00B99A0E /* TableViewController.swift */,
 				8AC5069D1EC49B1A00B305A4 /* SecondViewController.swift */,
 				D0E403641EC48BB7006FF9F4 /* Assets.xcassets */,
 				D0E403661EC48BB7006FF9F4 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				8AC5069E1EC49B1A00B305A4 /* SecondViewController.swift in Sources */,
 				D0E403601EC48BB7006FF9F4 /* ViewController.swift in Sources */,
 				D0E4035E1EC48BB7006FF9F4 /* AppDelegate.swift in Sources */,
+				D037ABD91EC4A52B00B99A0E /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
