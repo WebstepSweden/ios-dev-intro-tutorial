@@ -126,7 +126,7 @@
                                 <rect key="frame" x="300" y="617" width="59" height="30"/>
                                 <state key="normal" title="navigate"/>
                                 <connections>
-                                    <segue destination="2Vx-WE-BjV" kind="show" id="eSi-mZ-wtD"/>
+                                    <segue destination="2Vx-WE-BjV" kind="show" identifier="navigate" id="eSi-mZ-wtD"/>
                                 </connections>
                             </button>
                         </subviews>
