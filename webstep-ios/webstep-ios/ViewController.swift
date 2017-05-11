@@ -12,9 +12,9 @@ class MyViewController: UIViewController {
 
     @IBOutlet weak var myLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Hello!"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -23,6 +23,10 @@ class MyViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        segue.destination.view.backgroundColor = UIColor.green
+        segue.destination.title = "segue was here"
+    }
     
     @IBAction func buttonTapped(_ sender: Any) {
         myLabel.text = "Hello Websteppers!"
