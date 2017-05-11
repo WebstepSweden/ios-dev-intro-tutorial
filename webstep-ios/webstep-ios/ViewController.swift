@@ -15,6 +15,7 @@ class MyViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Webstep Demo"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
